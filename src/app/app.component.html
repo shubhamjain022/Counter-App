@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 col-md-offset-4 outerDiv">
+      <h4>Counter</h4>
+      <p class="label" id="cntVal" #cntVal>{{ cnt }}</p>
+      <div class="panel">
+        <button type="button" class="btn btn-primary" (click)="decreaseCnt()">Decrease</button>
+        <button type="button" class="btn btn-warning" (click)="resetCnt()">Reset</button>
+        <button type="button" class="btn btn-primary" (click)="increaseCnt()">Increase</button>
+      </div>
+    </div>
+  </div>
+</div>
